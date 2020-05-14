@@ -107,7 +107,7 @@ func main() {
 
 
 
-For more simple usage, see the [test file](https://github.com/happyxcj/wlog/blob/master/logger_example_test.log)
+For more simple usage, see the [test file](https://github.com/happyxcj/wlog/blob/master/logger_example_test.go)
 
 For more advanced usage such as to configure file rotation, configure multiple loggers and etc, see the [examples](https://github.com/happyxcj/wlog/blob/master/examples)
 
