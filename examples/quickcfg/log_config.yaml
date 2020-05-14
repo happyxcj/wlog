@@ -1,0 +1,6 @@
+min_level: "info"
+
+encoder: "json"
+
+encoder_config:
+  color_enabled: true

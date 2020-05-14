@@ -1,0 +1,18 @@
+min_level: "info"
+
+encoder: "json"
+
+paths:
+  - "stdout"
+  - "tmp/user.log"
+
+file_config:
+  # set to 10000 just for test rotation by size
+  max_size: 10000
+  max_rotated_size: 100000
+  max_rotated_days: 50
+
+writer_config:
+  flush_interval: 5
+  min_buf_size: 2048
+  max_buf_size: 50e+6
